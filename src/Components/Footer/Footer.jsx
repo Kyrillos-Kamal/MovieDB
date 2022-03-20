@@ -9,7 +9,7 @@ export default function Footer() {
         <p>All right reserved to <span className='fw-bold text-uppercase'>Dusty</span></p>
         <p>For Contact</p>
         <div className=" mx-auto text-center">
-          <a target='_blank' href='https://discord.com/users/Luminous#4564'><i className="fab fa-discord mx-2 text-white"></i></a>
+          <a target='_blank' href='https://discordapp.com/users/Dusty™#4174'><i className="fab fa-discord mx-2 text-white"></i></a>
           <a target='_blank' href='mailto:kirllos1000@gmail.com'><i className="fab fa-google mx-2 text-white"></i></a>
           <a target='_blank' href='https://www.linkedin.com/in/kyrillos-kamal/'><i className="fab fa-linkedin-in mx-2 text-white"></i></a>
           <a target='_blank' href='https://github.com/kyrillos1993/'><i className="fab fa-github mx-2 text-white"></i></a>

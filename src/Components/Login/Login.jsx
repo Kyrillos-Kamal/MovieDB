@@ -49,7 +49,7 @@ export default function Login(props) {
     let schema = Joi.object({
 
       email: Joi.string().email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }).label('Email '),
-      password: Joi.string().pattern(/^[A-Z][a-z]{3,8}$/).label('Password')
+      password: Joi.string().label('Password')
     });
     return schema.validate(user, { abortEarly: false })
   }

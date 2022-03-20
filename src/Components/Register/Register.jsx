@@ -52,7 +52,7 @@ export default function Register() {
       last_name: Joi.string().alphanum().min(3).max(10).required().label('Last name'),
       age: Joi.number().min(16).max(80).required().label('Age '),
       email: Joi.string().email({ minDomainSegments: 2, tlds: { allow: ['com', 'net'] } }).label('Email '),
-      password: Joi.string().pattern(/^[A-Z][a-z]{3,8}$/).label('Password')
+      password: Joi.string().label('Password')
     });
     return schema.validate(user, { abortEarly: false })
   }

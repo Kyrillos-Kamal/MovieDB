@@ -1,0 +1,23 @@
+div {
+  color: white !important;
+}
+span {
+  cursor: default !important;
+}
+.rating{ 
+  font-weight: bold !important;
+  background-color: #24BAEF;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -10px;
+  font-weight: bold;
+  padding: 10px 10px !important;
+}
+
+.title {
+  font-size: 1rem !important ;
+  color: white !important;
+}

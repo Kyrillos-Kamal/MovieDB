@@ -60,9 +60,9 @@ export default function Login(props) {
 
       {errorList.map((error, index) => {
         if (index === 4) {
-          return <div key={index} className='alert alert-danger'>Password Invalid</div>
+                   return <div key={index} className='alert alert-danger bg-danger'>Password Invalid</div>
         } else {
-          return <div key={index} className='alert alert-danger'>{error.message}</div>
+          return <div key={index} className='alert alert-danger bg-danger'>{error.message}</div>
         }
       })}
       {error.length > 0 ? <div className='alert alert-danger'>{error} </div> : ''}
